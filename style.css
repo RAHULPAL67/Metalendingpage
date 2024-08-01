@@ -1,0 +1,411 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+.f1{
+    width: 970px;
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+}
+.f1-a{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.f1-a i{
+    color: blue;
+}
+.f1-b{
+    width: 700px;
+    display: flex;
+    justify-content: start;
+    align-items: center;  
+}
+.f1-b ul{
+display: flex;
+justify-content: center;
+}
+.f1-b ul li{
+    font-size: 16px;
+    padding: 0px 15px ;
+}
+.mainborder{
+    position: relative;
+}
+.border4{
+    width:0%;
+    height: 1px;
+    background-color: blue;
+    position: absolute;
+    right: 0px;
+    transition: 0.5s;
+}
+.f1-b ul li:hover .border4{
+    width: 100%;
+    left: 0px;
+}
+.subMenu_shop{
+    width: 137%;
+    /* height: 250px; */
+    padding: 50px 0px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    top: 83px;
+    left: -169px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+.f1-b>ul>li:hover .subMenu_shop{
+    visibility: visible;
+    opacity: 1;
+}
+.subMenu_shop-a{
+    width: 230px;
+    margin-left: 200px;
+    line-height: 30px;
+}
+.subMenu_shop-b{
+    width: 230px;
+    line-height: 30px;
+}
+.subMenu_shop-c{
+    width: 230px;
+    line-height: 30px;
+}
+.subMenu_shop-a img{
+    width: 90%;
+}
+.subMenu_shop-b img{
+    width: 90%;
+}
+
+.f1-c{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.f1-c ul{
+display: flex;
+justify-content: center;
+}
+.f1-c ul li{
+    padding: 0px 10px;
+}
+.borderline{
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+}
+.news{
+    width: 1000px;
+    margin: auto;
+}
+.news h2{
+    padding-top: 20px;
+}
+
+/* main2 */
+
+.f2{
+    width: 1000px;
+    height: 420px;
+    margin: auto;
+    display: flex;
+    margin-top: 15px;
+}
+.f2a{
+   width: 400px;
+   height: 380px;
+}
+.f2a1{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-image: url("images/IG-Messaging-Bundle_Header.webp");
+    
+}
+.border{
+    width: 58px;
+    height: 0.5px;
+    background-color: rgb(117, 13, 13);
+}
+.f2b{
+    width: 280px;
+   height: 380px;
+   margin-left: 20px;
+}
+.f2a2 p1{
+    font-size: 20px;
+}
+.f2b1{
+    width: 100%;
+    height: 33%;
+}
+
+.f2b2{
+    width: 100%;
+    height: 33%;
+    margin-top: 15px;
+}
+.border1{
+    width: 30px;
+    height: 0.5px;
+    background-color: blue
+}
+.f2b3{
+    width: 100%;
+    height: 33%;
+    margin-top: 15px;
+}
+
+.f2c{
+    width: 280px;
+   height: 380px;
+   margin-left: 20px;
+}
+.f2c1{
+    width: 70%;
+    height: 33%;
+    background-image: url("images/Creator-Marketplace-on-Instagram_Thumbnail-.gif");
+    background-size: cover;
+}
+.f2c2{
+    width: 70%;
+    height: 33%;
+    background-image: url("images/Labeling-AI-Generated-Images_AI-Transparency_Thumbnail.webp");
+    background-size: cover;
+    margin-top: 10px;
+
+}
+.f2c3{
+    width: 70%;
+    height: 33%;
+    background-image: url("images/Safer-Internet-Day_Thumbnail.webp");
+    background-size: cover;
+    margin-top: 10px;
+}
+
+/* main-3 */
+.f3{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(206, 199, 199);
+    display: flex;
+}
+.f3a{
+    width: 50%;
+
+}
+.borderf3{
+    width: 30px;
+    height: 0.5px;
+    background-color: blue
+}
+.f3a1{
+    padding: 100px;
+
+}
+.f3b{
+    width: 50%;
+    background-image: url("images/OPT1_Boz-EOY-Recap_Thumbnail.gif");
+    background-size: cover;
+}
+
+/* main-4 */
+.f4{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+}
+.f4-a{
+    width: 20%;
+
+}
+.f4-a2{
+    margin-top: 20px;
+}
+.f4-a2 ul li{
+    font-size: 16px;
+    line-height:35px;
+    font-weight: normal;
+}
+.f4-a3{
+    margin-top: 20px;
+}
+.f4-a3 ul li{
+    font-size: 16px;
+    line-height:35px;
+    font-weight: normal;
+}
+.f4-b{
+    width: 38%;
+    margin-left: 20px;
+}
+.bor1{
+    width: 65px;
+    height: 0.5px;
+    background-color: blue    
+}
+.bor2{
+    width: 35px;
+    height: 0.5px;
+    background-color: blue
+}
+.f4-b1{
+    width: 100%;
+    height: 200px;
+}
+.f4-b1 p1{
+    font-size: 20px;
+}
+
+.f4-c{
+    width: 26%;
+    margin-left: 20px;
+}
+.f4-c1{
+    width: 100%;
+    height: 180px;
+    background-image: url("images/Facebook-News-Update_US_AU_Thumbnail.webp");
+    background-size: cover;
+}
+.f4-c2{
+    width: 100%;
+    height: 180px;
+    background-image: url("images/Headshots-BW_Thumbnail.webp");
+    background-size: cover;
+    margin-top: 20px;
+}
+.f4-c3{
+    width: 100%;
+    height: 180px;
+    background-image: url("images/Meta_Thumbnail-1.jpg");
+    background-size: cover;
+    margin-top: 23px;
+}
+.f4-c4{
+    width: 100%;
+    height: 180px;
+    background-image: url("images/Data-Privacy-Day-_Thumbnail-1.webp");
+    background-size: cover;
+    margin-top: 23px;
+}
+.f4-c5{
+    width: 100%;
+    height: 180px;
+    background-image: url("images/DM-Teen-Default_Parent-Controls-Bundle_Thumbnail.webp");
+    background-size: cover;
+    margin-top: 23px;
+}
+.f4-c6{
+    width: 100%;
+    height: 180px;
+    background-image: url("images/Davos-2024_Thumbnail.webp");
+    background-size: cover;
+    margin-top: 23px;
+}
+.divborder{
+    width: 650px;
+    height: 1px;
+    background-color: grey;
+    margin: auto;
+    margin-top: 20px;
+}
+.see{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    padding-left: 340px;
+    margin-top: 20px;
+}
+.see h4{
+    padding-left: 10px;
+}
+
+
+/* main-5 */
+.press{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(206, 199, 199);
+    margin-top: 30px;
+    
+    
+}
+.press_inner{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+.link{
+    width: 25%; 
+}
+/* main-6 */
+.content{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    
+}
+.cont-a1{
+    display: flex;
+    
+}
+.cont-a2{
+    margin-top: 20px;
+}
+.cont-a3{
+    display: flex;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.cont-a3 i{
+    margin-right: 10px;
+}
+.content-b{
+    line-height: 30px;
+    font-size: 14px;
+    margin-left: 65px;
+}
+.content-c{
+    line-height: 30px;
+    font-size: 14px;
+    margin-left: 60px;
+}
+.content-c h4{
+    font-size: 17px;
+}
+.content-d{
+    line-height: 30px;
+    font-size: 14px;
+    margin-left: 65px;
+}
+.last{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+.last ul{
+    display: flex;
+}
+.last ul li{
+    padding-left: 30px;
+}
